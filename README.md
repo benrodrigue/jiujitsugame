@@ -30,5 +30,3 @@ action = input("What do you do?")
 
 #provide an engine to do the work and a user interface that tells engine what user is doing
 #rolling log of console output
-
-
