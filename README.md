@@ -1,10 +1,10 @@
 # jiujitsugame
-Interactive JiuJitsu Sparring Project
+###Interactive JiuJitsu Sparring Project
 
-Goal
+###Goal
 Build an interactive JiuJitsu sparring session
 
-Progression:
+###Progression:
 Simple sparring situations between white belts
 Rolling log of console output for training and debugging purposes
 Weighted likelyhood of completion of move
@@ -14,19 +14,19 @@ Website to host gameplay
 
 
 Example situation during game play
-# closed guard, I sit up on my opponent and now my options are
-# 1) Hip-bump sweep 2) Kimura or 3) Guillotine
-# difficulty of move may impact success - weighted against experience level
+closed guard, I sit up on my opponent and now my options are
+1) Hip-bump sweep 2) Kimura or 3) Guillotine
+difficulty of move may impact success - weighted against experience level
 action = input("What do you do?")
 
-#based on option
+based on option
 
-#state machine
+state machine
 
-#each opponant may be in a different state
+each opponant may be in a different state
 
-#computer opponent does random with weighted preferences
-#humans success is weighted
+computer opponent does random with weighted preferences
+humans success is weighted
 
-#provide an engine to do the work and a user interface that tells engine what user is doing
-#rolling log of console output
+provide an engine to do the work and a user interface that tells engine what user is doing
+rolling log of console output
